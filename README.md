@@ -23,13 +23,18 @@ Built around the idea of periodic screen/sitting breaks — work for a set inter
 
 ## Setup
 
-**Option A — automated:**
+**Option A — automated (recommended):**
 
 ```
 setup.bat
 ```
 
+This will check whether Python is installed, attempt to install it via `winget` if not, and then install the required dependencies. If automatic installation fails, it will print step-by-step instructions.
+
 **Option B — manual:**
+
+1. Install Python from [python.org](https://www.python.org/downloads/) — tick **"Add Python to PATH"** during install
+2. Run:
 
 ```
 pip install Pillow pystray
