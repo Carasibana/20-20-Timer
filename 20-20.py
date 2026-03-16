@@ -725,7 +725,7 @@ class SettingsWindow(tk.Toplevel):
     def __init__(self, parent, app: App):
         super().__init__(parent)
         self.app = app
-        self.title("Settings — 20-20 Timer")
+        self.title("20-20 Timer - Settings")
         self.resizable(False, False)
         self.config(bg=C["bg"])
         self.grab_set()
@@ -911,7 +911,7 @@ class CountdownWindow(tk.Toplevel):
     def __init__(self, parent, app: App):
         super().__init__(parent)
         self.app = app
-        self.title("Break Timer")
+        self.title("20-20 Timer - Break")
         self.resizable(False, False)
         self.wm_attributes("-topmost", True)
         self.config(bg=C["bg"])
@@ -952,7 +952,7 @@ class CountdownWindow(tk.Toplevel):
 class StatsWindow(tk.Toplevel):
     def __init__(self, parent, data: dict):
         super().__init__(parent)
-        self.title("20-20 Timer — Stats")
+        self.title("20-20 Timer - Stats")
         self.resizable(False, False)
         self.config(bg=C["bg"])
 
