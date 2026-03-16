@@ -15,6 +15,12 @@ Built around the idea of periodic screen/sitting breaks — work for a set inter
 - **Start with Windows** — optional autostart via the Windows registry
 - **Start minimised** — can launch straight to the tray with no window
 
+## Screenshots
+
+| Main Timer | Stats | Settings |
+|------------|-------|----------|
+| ![Main timer window showing countdown](screenshots/Screenshot%202026-03-16%20123252.png) | ![Stats window showing streak and 14-day chart](screenshots/Screenshot%202026-03-16%20123346.png) | ![Settings window](screenshots/Screenshot%202026-03-16%20123327.png) |
+
 ## Requirements
 
 - Windows 10/11
